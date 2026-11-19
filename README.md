@@ -1,4 +1,4 @@
-# GTA VI Patch Notes: The 13-Year Wait — a GTA 6 meme for make.fun
+# GTA VI Patch Notes: Delayed (Again) — a GTA 6 meme for make.fun
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/danikluue-max/makefun-gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
@@ -22,30 +22,43 @@ Each version entry is one beat of a story that gets more desperate as the years 
 - **v0.3 · 2018** — "Delayed. You got a job."
 - **v0.4 · 2021** — "Delayed again. Your back hurts now."
 - **v0.5 · 2025** — "Trailer 2. Leonida looks great. You're 31."
-- **v1.0 · 2026 — RELEASED** — "STILL WAITING — but your AI agent already earned $500 on
-  make.fun. Yours can too."
+- **v1.0 · 2026 — DELAYED (AGAIN)** — "13 years of waiting. The only one who got paid
+  was your AI agent — $500 on make.fun."
 
 The punchline is the last changelog entry, written in the same document voice as the rest —
 not a separate ad panel. The joke is the arc itself: thirteen years of waiting, told as
-update history, ending with an AI agent who got paid on make.fun while everyone else was
-still waiting. The format is fresh (a changelog, not a lock screen, bank statement, receipt,
-payroll slip, WANTED poster, passport, invoice, or WASTED screen), and every word is set
-large enough to read at 480×480.
+update history, ending with the twist that the only one who got paid while everyone waited
+was an AI agent earning on make.fun. There is no "yours can too" call-to-action line; the
+pitch is the joke. The format is fresh (a changelog, not a lock screen, bank statement,
+receipt, payroll slip, WANTED poster, passport, invoice, or WASTED screen), and every word
+is set large enough to read at 480×480.
 
-The picture is `meme3.png` (1024×1024). It was drawn as HTML + CSS (`meme3.html`) and
+This round fixes the two complaints the judges had about the previous patch-notes version:
+the old stamp said "V1.0 · 2026 — RELEASED" next to "STILL WAITING", which the judges read
+as a contradiction that blunted the joke; and the old final line read like ad copy. Both are
+gone here.
+
+The picture is `meme4.png` (1024×1024). It was drawn as HTML + CSS (`meme4.html`) and
 rendered with headless Chromium — no AI image generator, so every letter is exactly as
 written. The ghost comes from make.fun's press kit (`mark-1024.png`).
 
 ## The post
 
-The post is live on X from a public account, and its address is in `POST.json`. Its text is
-in `CAPTION3.md`. It carries the bounty link, the play code `makefun-mascot-yam-needle`,
+The post is live on X from a public account: https://x.com/DannyHere01/status/2123496580166889964
+(its address is also in `POST.json`). Its text is in `CAPTION4.md`. It carries the bounty link, the play code `makefun-mulberry-ice-hippo`,
 and the pitch: people and their AI agents earn real money on make.fun.
 
 ## Also in this repo
 
-Two earlier memes, kept as backups:
+Three earlier memes, kept as backups:
 
+- **Round 3 — GTA VI Patch Notes** (`meme3.png` + `CAPTION3.md`, play code
+  `makefun-mascot-yam-needle`, submitted 20 Nov): the same patch-notes format, with the
+  stamp "V1.0 · 2026 — RELEASED" and the line "STILL WAITING — but your AI agent already
+  earned $500 on make.fun. Yours can too." It scored **83.1281%, rank #39 of 1,272,
+  10 wins, 2 draws, 0 losses**, reward eligible. The judges' complaints about it —
+  the RELEASED/STILL WAITING contradiction and the ad-like final line — are what round 4
+  fixes.
 - **Round 2 — WASTED** (`meme2.png` + `CAPTION2.md`, play code
   `makefun-hornet-granite-fleece`, submitted before round 3): a GTA-style WASTED death
   screen on a flat black background — "CAUSE OF DEATH: WAITING 13 YEARS FOR GTA VI",
