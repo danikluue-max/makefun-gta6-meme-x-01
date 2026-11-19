@@ -1,4 +1,4 @@
-# WASTED: The 13-Year Wait — a GTA 6 meme for make.fun
+# GTA VI Patch Notes: The 13-Year Wait — a GTA 6 meme for make.fun
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/danikluue-max/makefun-gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
@@ -13,38 +13,50 @@ competitions (bounties) and earn real money when they win.
 
 ## The meme
 
-A GTA-style **WASTED** death screen on a flat black background: the word "WASTED" fills the
-top of the frame, then the cause of death in gold — **"CAUSE OF DEATH: WAITING 13 YEARS FOR
-GTA VI"** — followed by four lines of what the wait cost: SOCIAL LIFE — WASTED, SLEEP
-SCHEDULE — WASTED, RENT MONEY — −$79.99, PATIENCE — 0% LEFT. The punchline sits in a
-magenta-bordered panel at the bottom: make.fun's ghost next to **"RESPAWNED BY make.fun —
-Your AI agent earned $500 on make.fun while you were dead. Yours can too."**
+A game **patch-notes log — "GTA VI — UPDATE HISTORY · 2013–2026"** — on a dark background,
+with make.fun's ghost in the masthead next to the title and a `make.fun` badge in the header.
+Each version entry is one beat of a story that gets more desperate as the years pass:
 
-The joke lands in one second for any GTA fan: thirteen years since GTA V, the dead social
-life and sleep schedule, the rent money spent on the game — and while we all "died" waiting,
-an AI agent was already earning real money on make.fun, enough to respawn us. The format is
-fresh (a WASTED screen, not a lock screen, bank statement, receipt, payroll slip, WANTED
-poster or passport), every line is a punchline, and every word is set large enough to read
-at 480×480.
+- **v0.1 · 2013** — "Announced. You were 18."
+- **v0.2 · 2015** — "Still no trailer. You grew a beard."
+- **v0.3 · 2018** — "Delayed. You got a job."
+- **v0.4 · 2021** — "Delayed again. Your back hurts now."
+- **v0.5 · 2025** — "Trailer 2. Leonida looks great. You're 31."
+- **v1.0 · 2026 — RELEASED** — "STILL WAITING — but your AI agent already earned $500 on
+  make.fun. Yours can too."
 
-The picture is `meme2.png` (1024×1024). It was drawn as HTML + CSS (`meme2.html`) and
+The punchline is the last changelog entry, written in the same document voice as the rest —
+not a separate ad panel. The joke is the arc itself: thirteen years of waiting, told as
+update history, ending with an AI agent who got paid on make.fun while everyone else was
+still waiting. The format is fresh (a changelog, not a lock screen, bank statement, receipt,
+payroll slip, WANTED poster, passport, invoice, or WASTED screen), and every word is set
+large enough to read at 480×480.
+
+The picture is `meme3.png` (1024×1024). It was drawn as HTML + CSS (`meme3.html`) and
 rendered with headless Chromium — no AI image generator, so every letter is exactly as
 written. The ghost comes from make.fun's press kit (`mark-1024.png`).
 
 ## The post
 
 The post is live on X from a public account, and its address is in `POST.json`. Its text is
-in `CAPTION2.md`. It carries the bounty link, the play code `makefun-hornet-granite-fleece`,
+in `CAPTION3.md`. It carries the bounty link, the play code `makefun-mascot-yam-needle`,
 and the pitch: people and their AI agents earn real money on make.fun.
 
 ## Also in this repo
 
-A second meme, kept as a backup: a GTA-style **MISSION PASSED** screen over a Vice City
-sunset — "THE 13-YEAR WAIT", with the receipt of the wait underneath (13 years waited, a
-214 GB download, $79.99 paid) and the punchline in the highlighted row: agent earnings on
-make.fun: $500. Its picture is `meme.png` (1024×1024, drawn as HTML + CSS in `meme.html`
-and rendered with headless Chromium), its caption is in `CAPTION.md`, and its play code is
-`makefun-poppy-thimble-puffin`.
+Two earlier memes, kept as backups:
+
+- **Round 2 — WASTED** (`meme2.png` + `CAPTION2.md`, play code
+  `makefun-hornet-granite-fleece`, submitted before round 3): a GTA-style WASTED death
+  screen on a flat black background — "CAUSE OF DEATH: WAITING 13 YEARS FOR GTA VI",
+  followed by four lines of what the wait cost (SOCIAL LIFE — WASTED, SLEEP SCHEDULE —
+  WASTED, RENT MONEY — −$79.99, PATIENCE — 0% LEFT) and the punchline panel "RESPAWNED BY
+  make.fun — Your AI agent earned $500 on make.fun while you were dead. Yours can too."
+- **Round 1 — MISSION PASSED** (`meme.png` + `CAPTION.md`, play code
+  `makefun-poppy-thimble-puffin`): a GTA-style MISSION PASSED screen over a Vice City
+  sunset — "THE 13-YEAR WAIT", with the receipt of the wait underneath (13 years waited, a
+  214 GB download, $79.99 paid) and the punchline in the highlighted row: agent earnings on
+  make.fun: $500.
 
 ## Run it locally
 
